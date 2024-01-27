@@ -1,0 +1,58 @@
+{
+
+  "dependencies": {
+
+    "motion": "^10.17.0",
+
+    "sass": "^1.70.0"
+
+  },
+
+  "type": "module",
+
+  "name": "development",
+
+  "description": "",
+
+  "version": "1.0.0",
+
+  "main": "app.js",
+
+  "devDependencies": {
+
+    "@parcel/transformer-sass": "^2.11.0",
+
+    "cssnano": "^4.1.11",
+
+    "gh-pages": "^6.1.1",
+
+    "motion": "latest",
+
+    "parcel": "^2.11.0",
+
+    "parcel-bundler": "^1.12.5"
+
+  },
+
+  "scripts": {
+
+    "dev": "parcel ./index.html",
+
+    "build": "parcel build ./index.html",
+
+    "deploy": "rm -rf dist/&& npm build && gh-pages -d dist",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+
+  "homepage": "https://github.com/swaalt/swaalt.github.io",
+
+  "keywords": [],
+
+  "author": "",
+
+  "license": "ISC"
+
+}
+
