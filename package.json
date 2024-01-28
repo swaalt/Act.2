@@ -38,8 +38,6 @@
 
     "dev": "parcel ./index.html",
 
-    "build": "parcel build ./index.html",
-
     "deploy": "rm -rf dist/&& npm build && gh-pages -d dist",
 
     "test": "echo \"Error: no test specified\" && exit 1"
